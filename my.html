@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0" />
+		<title>my</title>
+		<link rel="stylesheet" href="bootstrap.css" />
+		<style>
+			*{margin:0;padding:0}
+			ul{list-style: none;}
+			.clearfix:after{
+				content: ".";
+				display: block;
+				height:0;
+				clear:both;
+			}
+			.center{margin:0 auto;}
+			article{display: block;}
+			@font-face {
+				font-family:'Glyphicons Halflings';
+				src: url(fonts/glyphicons-halflings-regular.eot),
+					 url(fonts/glyphicons-halflings-regular.woff2),	
+					 url(fonts/glyphicons-halflings-regular.svg),	
+					 url(fonts/glyphicons-halflings-regular.ttf),	
+					 url(fonts/glyphicons-halflings-regular.woff);
+			}
+			.lh24{line-height:24px;}
+			.lh40{line-height:40px;}
+			.fz18{font-size:18px;}
+			.cw{color:white;}
+			.h37{height:37px;line-height:37px;padding-left:25px;color:#717171;}
+			.header{background:#1f272d;}
+			.time{
+				background:url(images/awesome_modify_03.jpg) no-repeat 0 50%;
+			}
+			.phone{
+				background:url(images/awesome_modify_05.jpg) no-repeat 0 50%;
+			}
+			.email{
+				background:url(images/awesome_modify_07.jpg) no-repeat 0 50%;
+			}
+			.header li{
+				float:left;
+				width:15px;
+				height:16px;
+				margin-left:16px;
+				margin-top:12px;
+				cursor: pointer;
+			}
+			.header li:nth-child(1){background:url(images/awesome_modify_09.jpg)}
+			.header li:nth-child(2){background:url(images/awesome_modify_11.jpg)}
+			.header li:nth-child(3){background:url(images/awesome_modify_13.jpg)}
+			.header li:nth-child(4){background:url(images/awesome_modify_15.jpg)}
+			.header li:nth-child(5){background:url(images/awesome_modify_17.jpg)}
+			/*LOGO与导航区*/
+			.logo{
+				
+				border-top:1px solid #39434a;
+				background: #283036
+			}
+			.logo-img{
+				padding:14px;
+			}
+			.f16 a{font-size:16px;color:white;}
+			.search span{margin-left:5px;}
+			.nav-right{margin-top:20px}
+			#menu li{text-align: center;}
+			/*banner区*/
+			.banner{padding:50px 0;background:#f04949;}
+			.banner h3{
+				padding:42px 0;
+				line-height: 70px;
+				font-size:36px;
+				color:#fff;
+			}
+			.banner p{
+				color:#fff;
+				font-size:18px;
+			}
+			/*主体区*/
+			.main1 article{
+				padding:40px 0;
+				text-align: center;
+			}
+			.main1 h4{
+				line-height: 80px;
+				color:#F04949;
+				font-size:28px;
+			}
+			/*欢迎区*/
+			.welcome{
+				padding:65px 0;
+				background: url(images/tc_110.png);
+				text-align: center;
+			}
+			.welcome p{color:white}
+			/*新闻区*/
+			.news{padding:80px 0;}
+			.news h5{color:#f04949;margin:0;}
+			/*团队区*/
+			.team{padding:50px 0;background:#f04949}
+			.team img{width:212px;}
+			/*底部区*/
+			.footer{
+				padding:65px;
+				background:#283036;
+			}
+		</style>
+	</head>
+	<body>
+		<!--顶部 -->
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="hidden-xs hidden-sm col-md-3 time h37">Sunday, February 16 ,2014</div>
+					<div class="hidden-xs hidden-sm col-md-3 phone h37">+86 13888888888</div>
+					<div class="hidden-xs hidden-sm col-md-3 email h37">yourmail@gmail.com</div>
+					<div class="hidden-xs hidden-sm col-md-3">
+						<ul class="clearfix">
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--LOGO与导航区-->
+		<div class="logo">	
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-3 logo-img"><a href="##"><img src="images/logo.png" alt="AWESOM"></a></div>
+					<div class="col-xs-12 col-sm-12 col-md-9 nav-right">
+						<nav class="navbar navbar-default">
+							<!-- 按钮 -->
+							<div class="navbar-header">
+								<button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<!-- 菜单 -->
+							<div class="collapse navbar-collapse f16" id="menu">
+								<ul class="nav navbar-nav navbar-right ">
+									<li class="active"><a href="##">Home</a></li>
+									<li><a href="##">About</a></li>
+									<li><a href="##">Portfolios</a></li>
+									<li><a href="##">Features</a></li>
+									<li><a href="##">Our</a></li>
+									<li><a href="##">Products</a></li>
+									<li><a href="##">Contact Us</a></li>
+									<li class="search"><a href="##">|<span class="glyphicon glyphicon-search"></span></a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>	
+			</div>		
+		</div>
+		<!--banner区-->
+		<div class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 text-center"><img class="img-rounded img-responsive" src="images/img.png" alt=""></div>
+					<div class="col-sm-12 col-md-6 text-center">
+						<h3>An Amazing Responsive wordpress theme</h3>
+						<p class="lh24">Lorem ipsum ex vix illud nonummy<br>	 novum tation et his. At vix scriptaset patrioque 	
+				scribentur, at pro<br> fugit erts verterem molestiae, sed et vivendo ali Lorem ipsum ex vix illud nonummy, novum 
+				tation et his. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--主体区-->
+		<div class="container main1">
+			<article>
+				<h4>Some Amazing Features</h4>
+				<p class="lh24">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+					Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at.Cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. 
+					Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet erorem ipsum dolor sit amet consectetuer adipiscing elit.
+					Mauris fermentum dictum magna.
+				</p>
+			</article>
+		</div>
+		<!--欢迎区-->
+		<div class="welcome">
+			<div class="container">
+				<h4>Welcome to our website!</h4>
+				<p>We're experts in this field and we strive to provide high-quality web design, custom development and 	
+			maintenance. Our goal is to provide unique design, powerful and practical functions, easy operation and user-friendly interface.</p>
+				<button class="btn btn-primiry">Purchase Now</button>
+			</div>
+		</div>
+		<!--新闻区-->
+		<div class="container news">
+			<div class="row news-top">
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2">
+							<img class="img-responsive center" src="images/icoy_03.jpg" alt="icon">
+						</div>
+						<div class="col-xs-10 col-sm-10 col-md-10">
+							<h5 class="lh40 fz18">Full Responsive</h5>
+							<p class="lh24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat rutrum eros sit amet 
+						ollicitudin.Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2">
+							<img class="img-responsive center" src="images/icoy_03.jpg" alt="icon">
+						</div>
+						<div class="col-xs-10 col-sm-10 col-md-10">
+							<h5 class="lh40 fz18">Full Responsive</h5>
+							<p class="lh24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat rutrum eros sit amet 
+						ollicitudin.Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<div class="row">
+						<div class="col-xs-2 col-sm-2 col-md-2">
+							<img class="img-responsive center" src="images/icoy_03.jpg" alt="icon">
+						</div>
+						<div class="col-xs-10 col-sm-10 col-md-10">
+							<h5 class="lh40 fz18">Full Responsive</h5>
+							<p class="lh24">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat rutrum eros sit amet 
+						ollicitudin.Lorem ipsum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row news-buttom">
+				<div class="col-xs-12 col-sm-12 col-md-8">
+					<h3>Last News</h3>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 news-icon">
+									<img class="img-responsive center" src="images/tc_121.png"/>
+								</div>
+								<div class="col-xs-8 col-sm-8 col-md-8">
+									<h6>Hello World! This is my first post.</h6>
+									<p>Cum soccis natoquo pennatibus et magins dis pennatikus montese,nasatur ridiculus mus</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 news-icon">
+									<img class="img-responsive center" src="images/tc_121.png"/>
+								</div>
+								<div class="col-xs-8 col-sm-8 col-md-8">
+									<h6>Hello World! This is my first post.</h6>
+									<p>Cum soccis natoquo pennatibus et magins dis pennatikus montese,nasatur ridiculus mus</p>
+								</div>
+							</div>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 news-icon">
+									<img class="img-responsive center" src="images/tc_121.png" />
+								</div>
+								<div class="col-xs-8 col-sm-8 col-md-8">
+									<h6>Hello World! This is my first post.</h6>
+									<p>Cum soccis natoquo pennatibus et magins dis pennatikus montese,nasatur ridiculus mus</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<div class="row">
+								<div class="col-xs-4 col-sm-4 col-md-4 news-icon">
+									<img class="img-responsive center" src="images/tc_121.png"/>
+								</div>
+								<div class="col-xs-8 col-sm-8 col-md-8">
+									<h6>Hello World! This is my first post.</h6>
+									<p>Cum soccis natoquo pennatibus et magins dis pennatikus montese,nasatur ridiculus mus</p>
+								</div>
+							</div>							
+						</div>
+					</div>					
+				</div>
+				<!--Our Service-->
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<h3>Our Service</h3>
+					<!--面板组-->
+						<div class="panel-group" id="accordion">
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+						          MANAGEMENT CONSULTING
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse">
+						      <div class="panel-body">
+						        Lorem ipsum dolor sit amet, consectetur scing elit. Ut volutpat rutrum eros sit amet 
+								ollicitudin.Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur 
+								adipiscing elit. Ut volutpat rutrum eros sit amet ollicitudin.Lorem ipsum dolor sit amet, 
+								consectetur.Lorem ipsum dolor sit amet, consectetur avolutpat ru.Lorem ipsum dolor sit amet, 
+								consectetur.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+						          MANAGEMENT CONSULTING
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseTwo" class="panel-collapse collapse">
+						      <div class="panel-body">
+						 		Lorem ipsum dolor sit amet, consectetur scing elit. Ut volutpat rutrum eros sit amet ollicitudin.
+								Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Ut volutpat rutrum eros sit amet ollicitudin.Lorem ipsum dolor sit amet, consectetur.Lorem ipsum 
+								dolor sit amet, consectetur avolutpat ru.Lorem ipsum dolor sit amet, consectetur.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <h4 class="panel-title">
+						        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+						          MANAGEMENT CONSULTING
+						        </a>
+						      </h4>
+						    </div>
+						    <div id="collapseThree" class="panel-collapse collapse" >
+						      <div class="panel-body">
+						        Lorem ipsum dolor sit amet, consectetur scing elit. Ut volutpat rutrum eros sit amet ollicitudin.
+								Lorem ipsum dolor sit amet, consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+								Ut volutpat rutrum eros sit amet ollicitudin.Lorem ipsum dolor sit amet, consectetur.Lorem ipsum 
+								dolor sit amet, consectetur avolutpat ru.Lorem ipsum dolor sit amet, consectetur
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<!--<!--团队-->
+		<div class="team">
+			<div class="container">
+				<div class="team-top text-center">
+					<h4 class="cw">Our Team</h4>
+					<p class="cw">
+						orem ipsum dolor sit amet, consectetur scing elit. Ut volutpat rutrsit amet, 
+						consectetuum eros sectetur.Lorem ipsum dolorpsusit amet ollicitudin.Lorem ipsum dolor sit etur.
+						Lorem ipsum dolorpsu.Lorem ipsum dolorpsum dolor sitamet, consectetur scing elit. Ut volutpat rutrum e
+					</p>
+				</div>
+				<!--轮播区-->
+				<div id="myCarousel" class="carousel slide">
+				 <!--轮播指标，切换标识-->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				    <li data-target="#myCarousel" data-slide-to="3"></li>
+				  </ol>
+				
+				  <!--轮播项目-->
+				  <div class="carousel-inner">
+				    <div class="item active row">
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc118.png" />
+							<p>Elia Erica</p>
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc119.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc120.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc121.png" />
+							<p>Elia Erica</p>							
+						</div>
+				    </div>
+				    <div class="item">
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc119.png" />
+							<p>Elia Erica</p>
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc118.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc120.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc121.png" />
+							<p>Elia Erica</p>							
+						</div>
+				    </div>
+				    <div class="item">
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc120.png" />
+							<p>Elia Erica</p>
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc119.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc118.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc121.png" />
+							<p>Elia Erica</p>							
+						</div>
+				    </div>
+				    <div class="item">
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc121.png" />
+							<p>Elia Erica</p>
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc118.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc119.png" />
+							<p>Elia Erica</p>							
+						</div>
+						<div class="col-sm-6 col-md-3 text-center">
+							<img class="img-responsive img-circle center" src="images/tc120.png" />
+							<p>Elia Erica</p>							
+						</div>
+				    </div>				    
+				    
+				  </div>
+				</div>
+			</div>
+		</div>
+		<!--底部区-->
+		<div class="footer text-center">
+			<div class="container">
+				<img class="img-responsive center-block" src="images/logo.png" />
+				<p class="cw">COPYRIGHT BY 2012 AWESOME</p>
+				<p class="cw">COPYRIGHT BY 2012 AWESOME | PRIVACY STATEMENT | TERMS OF USE</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="jquery-3.1.0.min.js"></script>
+<script src="dropdown.js"></script>
+<script src="collapse.js"></script>
+<script src="carousel.js"></script>
+<script>
+	$(function(){
+		$('.carousel').carousel({
+			interval:2000
+		})
+	})
+</script>
